@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "challnge-lab-gce",
+  "private_key_id": "4e3b36e2a1f7319da1778229209f5a30a975ba6c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0ZwK69zu7qVRb\nuH6jD7h1H/zgq4PdM0F2rbTJXo9YeefXeQLBs1y1aeFnZ1asP0EHeoLvL+DLObw9\nraiOoXOMphLpT52Q8SSoaDan+0vINHhM+2DBCXGLRx3s8XiVAUGiwtg59QDB8ZtW\n4Q7hpO3l7pwtjNR1y0mHjfu3nkjZyemZ+HAWZgnuUAp0bSDkhZrB8YjsUDDy6gW0\nFFcptqlQUo+xhbpMTx5R+vhSF9jD1/PB/aN76OryEnrd7pvm50230DUI7wDSfKT/\ncY0pGq6JDxVzvnyPyfVDRlleE/xntH01AQycFanLjA0ed238S3+YI2AJUo7P/BLC\nzrp9RNAtAgMBAAECgf8be5Xu5bsz25f+YRzpuntfXIApufdcu3I9ojjodH9h+zBW\noxjIaYq2GGs+VX/evcQqX3+S8LhOPX1v6ATFtdLkmmhHItneOt5ayYWKEb55wYSS\nNbmHruidTzg/4Il+KbLWGNjX+3siEKyZj6+0sGuNm8wvJEU5rL6G6Bpw3qw6gUYV\nFrhbo3SkSHyA8fwVSeFG1IeefhC9zQE4DVdpOpK+DS9nYeMHel7WLCMd3Vz14NqN\nQtccxkRzLj4igcrmvFYxsNsrMxirueu+w3BZHqj5ABNKtBKLrjAiecCT95U1KC4u\nHHQp4PIgyC8BIM9kccB3CvbS7FmI9zoUygYco6UCgYEA89COh9itIOVP7RYBHx2M\nVLpqcp6NAwZG0mZRhFuH1mHel/kUATajuzyy83a4Gs6Un7FyYpUkkLC+ObWxbaxX\nqorpbZFHkDLrMOOUQLwUgFLJYg9cRuPIEFr8LS+CDz6r1D8aWP29fqhjxR8eGwai\nCGOFazfhtUh/umWdA7XQjNsCgYEAvWsi/5CzkdzEMnXYZA1iioYl5WffgbkAw5WX\nwqMOG1NgwDgAOao/vOpVUbqKipfH1IXxtJqGyF81c5l4u/Vz0ZW/EJgb2n/pd5QX\nKt+C2EWhSHL2ywL2g6jbUzb55XLya6vISMocX5sZG3N0zELCxpHcx7581oVqNzxE\nt23EoZcCgYEAtHGauvFimGD+OTI63ENrE13v4Cp1pFJl4dt14yY2rzQ5oHHoG0nL\n/YvbyRIJCVXwawvR4yIMMMWN03oj+U4+h2pNfhiyRQdaRxF3LD3GUn5yqo9BtPlp\nnKkpz2tEr3Gri+az4j7QmseXJ1FzX38WNm0pVgPCmP8yAMqpXRCXa1cCgYEAqIBy\nNd7Hn25AqpLi2L5/drM3awgocAHfiB2/T0o19mEJpHUs3h9xa+EZ3QaQ0BGNlqVB\nC2Sbmgv4RMm1+Z60VTFdMqndvVYknleC9IS4pSPsAcMjgB02ppDD6xbw3wiOVvIN\nzZLeAr66aw0eTcbl9jczrAzsiPlOL6zRhEuFrCkCgYEAn/swbBLNmjXIrmKDuOYd\nltTHYAGN4GwTSl14F25B2hoOq/L9eFvSh1nFfG7a03VweG0a44D+AruIKpY5hctM\nOANZd0xFOP+O4zMjakkxbFsm9NLDrOUWaggQ8jINtwwtMhc1irYAZy+VIXzrun79\nxB9dUN+ov85wwob1p5WvEVA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tf-svc@challnge-lab-gce.iam.gserviceaccount.com",
+  "client_id": "109923086569033062444",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tf-svc%40challnge-lab-gce.iam.gserviceaccount.com"
+}
