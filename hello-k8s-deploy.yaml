@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: paulbouwer/hello-kubernetes:1.5
+        image: meetravi007/ravi-app:v1.0
         ports:
         - containerPort: 8080
