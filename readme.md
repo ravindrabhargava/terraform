@@ -1,6 +1,6 @@
 This is a simple terraform approch to create a gke cluster in gcp...
 
-High level Procedure: - (I didn’t)
+High level Procedure: -
 
 1.	Step 1 – I used WSL on my windows 10 so on the top of ubuntu I have installed the GCP Cloud SDK and terraform on my local laptop from where I used to execute all devops commands to create the GKE Cluster as required.
 2.	There are 2 files for terraform provider.tf, main.tf and variables.sh to create GKE using terraform with where I have declared the value of machine type, min and max no of nodes in the pool.
