@@ -4,7 +4,7 @@
 
 ## Architecture Diagram
 
-(https://github.com/ravindrabhargava/terraform-gke/blob/master/thumbnail.jpg)
+![alt text](https://github.com/ravindrabhargava/terraform-gke/blob/master/thumbnail.jpg)
 
 
 ## High level Procedure: -
