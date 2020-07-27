@@ -17,3 +17,48 @@ spec:
         image: meetravi007/ravi-app:v1.0
         ports:
         - containerPort: 8080
+---
+  #This will help to make kubernetes cluster 'highly available' and horizontal 'scalable' as per requirement of the task
+  apiVersion: autoscaling/v2beta1
+  kind: HorizontalPodAutoscaler
+  metadata:
+    name: podinfo
+  spec:
+    scaleTargetRef:
+      apiVersion: extensions/v1beta1
+      kind: Deployment
+      name: podinfo
+    minReplicas: 3
+    maxReplicas: 10
+    metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        targetAverageUtilization: 70
+    - type: Resource
+      resource:
+        name: memory
+        targetAverageValue: 200Mi
+---
+# 'Highly Fault Tolerant' -  every 5 sec check the container healthy or not if not kubelet create new1
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    test: liveness
+  name: liveness-http
+spec:
+  containers:
+  - name: liveness
+    image: k8s.gcr.io/liveness
+    args:
+    - /server
+    livenessProbe:
+      httpGet:
+        path: /healthz
+        port: 8080
+        httpHeaders:
+        - name: Custom-Header
+          value: Awesome
+      initialDelaySeconds: 3
+      periodSeconds: 3 
