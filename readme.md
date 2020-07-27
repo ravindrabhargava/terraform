@@ -1,7 +1,7 @@
 
-                                                          ## Automation using terraform and manifest file in GCP kubernetes engine
+                                                        
 
-
+   ## Automation using terraform and manifest file in GCP kubernetes engine
 ## Architecture Diagram
 
 ![alt text](https://github.com/ravindrabhargava/terraform-gke/blob/master/thumbnail.jpg)
