@@ -17,8 +17,10 @@
 6.	The manifest file also using my docker hub image (meetravi007/ravi-app:v1.0) for creating deploying the app in pods.
 7.	 All required terraform files and yamls is available on my GitHub but they are not public , as mentioned in the task, we may have an online demo if you like my approach to took this task, sorry I didn’t get much time to do other task mentioned due to also having some current project work in parallel. 
  	
+  
   Thank you :pray:
-  Ravi bhargava 
+  
+  ####Ravi bhargava####
 
 :thumbsup: Links: - 
 - https://www.linkedin.com/in/ravindrabhargava/
