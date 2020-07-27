@@ -1,3 +1,12 @@
+
+                                                          ## Automation using terraform and manifest file in GCP kubernetes engine
+
+
+## Architecture Diagram
+
+[a link](https://github.com/ravindrabhargava/terraform-gke/blob/master/thumbnail.jpg)
+
+
 ## High level Procedure: -
 
 1.	Step 1 – I used WSL on my windows 10 so on the top of ubuntu I have installed the GCP Cloud SDK and terraform on my local laptop from where I used to execute all devops commands to create the GKE Cluster as required.
