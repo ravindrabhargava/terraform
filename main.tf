@@ -25,7 +25,8 @@ module "gke" {
   ip_range_services = var.ip_range_services
 
   # optional variables
-  kubernetes_version       = "1.14.10-gke.36"
+  #The default version for new clusters is now 1.15.12-gke.2 (previously 1.14.10-gke.36)
+  kubernetes_version       = "1.15.12-gke.2"
   regional                 = true
   create_service_account   = false
   remove_default_node_pool = true
