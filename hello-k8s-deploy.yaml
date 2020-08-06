@@ -40,7 +40,7 @@ spec:
         name: memory
         targetAverageValue: 200Mi
 ---
-# 'Highly Fault Tolerant' -  every 5 sec check the container healthy or not if not kubelet create new1
+# 'Highly Fault Tolerant' -  every 5 sec check the container healthy or not if not kubelet create new1 
 apiVersion: v1
 kind: Pod
 metadata:
